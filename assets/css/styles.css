@@ -1,15 +1,7 @@
-/*   
- * Template Name: PrettyDocs - Responsive Website Template for documentations
- * Version: 1.0
- * Author: Xiaoying Riley
- * License: Creative Commons Attribution 3.0 License - https://creativecommons.org/licenses/by/3.0/
- * Twitter: @3rdwave_themes
- * Website: http://themes.3rdwavemedia.com/
-*/
-/* Theme default */
-/* ======= Base ======= */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
-  font-family: 'Open Sans', arial, sans-serif;
+  font-family: 'Montserrat', arial, sans-serif;
   color: #494d55;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
