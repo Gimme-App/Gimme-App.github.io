@@ -1315,13 +1315,18 @@ select {
 
 /* ======= Landing Page ======= */
 
+.magician-logo{
+    
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
 .landing-page .header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header.jpg);
     ;
     color: rgba(255, 255, 255, 0.85);
     padding: 60px 0;
     width: 100%;
-    min-height: 565px;
+    height:400px;
     background-color: rgb(96, 96, 123);
     background-origin: border-box!important;
     background-repeat: no-repeat!important;
@@ -1357,9 +1362,10 @@ select {
 }
 
 .landing-page .tagline {
-    font-weight: 600;
-    font-size: 20px;
+    font-size: 30px;
+    margin-left: 100px;
 }
+
 
 .landing-page .tagline p {
     margin-bottom: 5px;
@@ -1393,10 +1399,13 @@ select {
 }
 
 
-.landing-page .logo-typeface{
-  font-family: "Nexa","Montserrat",Arial, Helvetica, sans-serif;
-  color: #ffffff;
+.landing-page .logo-typeface {
+    font-family: "Nexa","Montserrat",Arial,Helvetica,sans-serif;
+    font-size: 70px;
+    color: #ffffff;
+    top: '';
 }
+
 .cards-section {
     padding: 60px 0;
     background: #f9f9fb;
@@ -1414,6 +1423,7 @@ select {
     max-width: 800px;
     margin-bottom: 60px;
     color: #616670;
+    font-size: 18px;
 }
 
 .cards-section .cards-wrapper {
@@ -1435,7 +1445,7 @@ select {
 }
 
 .cards-section .item .title {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
 }
 
