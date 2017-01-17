@@ -1320,6 +1320,15 @@ select {
     ;
     color: rgba(255, 255, 255, 0.85);
     padding: 60px 0;
+    width: 100%;
+    min-height: 565px;
+    background-color: rgb(96, 96, 123);
+    background-origin: border-box!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-position: right!important;
+    padding-bottom: 200px;
+    z-index: -9999;
 }
 
 .landing-page .header a {
